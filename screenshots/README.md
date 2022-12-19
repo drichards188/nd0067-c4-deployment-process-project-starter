@@ -1,1 +1,0 @@
-### contains required screenshots of services
