@@ -1,8 +1,8 @@
-eb setenv POSTGRES_USERNAME=postgres
-eb setenv POSTGRES_PASSWORD=myPassword
-eb setenv POSTGRES_HOST=udacitydb-1.cpzbjiftntyh.us-east-1.rds.amazonaws.com
-eb setenv POSTGRES_DB=postgres
-eb setenv AWS_BUCKET=arn:aws:s3:::mybucket121422
-eb setenv AWS_REGION=us-east-1
-eb setenv AWS_PROFILE=default
-eb setenv JWT_SECRET=mysecretstring
+eb setenv POSTGRES_USERNAME=${POSTGRES_USERNAME}
+eb setenv POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+eb setenv POSTGRES_HOST=${POSTGRES_HOST}
+eb setenv POSTGRES_DB=${POSTGRES_DB}
+eb setenv AWS_BUCKET=${AWS_BUCKET}
+eb setenv AWS_REGION=${AWS_REGION}
+eb setenv AWS_PROFILE=${AWS_PROFILE}
+eb setenv JWT_SECRET=${JWT_SECRET}
